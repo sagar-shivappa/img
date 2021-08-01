@@ -56,7 +56,7 @@ let data=[
     {name:'sagar',gender:'Male'},
     {name:'AbhiGandaa',gender:'Male'},
     {name:'Geetha Priya',gender:'FeMale'},
-    {name:'Ganesha',gender:'FeMale'},
+    {name:'Ganesha',gender:'Male'},
     {name:'Monikaa',gender:'FeMale'}
     // find femaile,
     // count of male, name starting with G
