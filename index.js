@@ -50,3 +50,20 @@ let dupName=stringArray.filter((name,index)=>{
     }
 });
 console.log('uniName',dupName);
+
+// Assignment 7:
+let data=[
+    {name:'sagar',gender:'Male'},
+    {name:'AbhiGandaa',gender:'Male'},
+    {name:'Geetha Priya',gender:'FeMale'},
+    {name:'Ganesha',gender:'FeMale'},
+    {name:'Monikaa',gender:'FeMale'}
+    // find femaile,
+    // count of male, name starting with G
+]
+let males=data.filter(i=>i.gender=='Male');
+let females=data.filter(i=>i.gender=='FeMale');
+let firstWord=data.filter(i=>i.name[0]=='G');
+console.log('All Females',females.map(name=>name.name));
+console.log('Count of Male',males.length);
+console.log('Name starting with G',firstWord.map(name=>name.name));
